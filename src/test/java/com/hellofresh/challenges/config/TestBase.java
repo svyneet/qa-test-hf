@@ -22,6 +22,7 @@ public class TestBase {
 	
 	public void configureBrowser() {
 		settingsProp = this.readPropertyValues("data\\settings.properties");
+		//Browser Selection
 		if ((settingsProp.getProperty("browser").trim()).equalsIgnoreCase("chrome")) {
 			System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\chromedriver");
 			driver = new ChromeDriver();
@@ -32,6 +33,7 @@ public class TestBase {
 		}
 		driver.manage().window().maximize();
 		wait = new WebDriverWait(driver, 10, 50);
+		//Environment Selection
 		if ((settingsProp.getProperty("environment").trim()).equalsIgnoreCase("prod")) {
 			driver.navigate().to(settingsProp.getProperty("URL_PROD"));
 		}
@@ -62,8 +64,8 @@ public class TestBase {
 		}
 		return properties;
 	}
+	
 	 public void takeScreenShot(String methodName) {
-
 		String filePath = "target//surefire-reports//";
 		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		try {

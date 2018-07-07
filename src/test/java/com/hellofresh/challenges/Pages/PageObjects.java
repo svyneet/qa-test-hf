@@ -140,6 +140,7 @@ public class PageObjects extends Actions {
 	@FindBy(xpath = "//*[@class='cheque-indent']/strong")
 	public WebElement	textConfirmOrder;
 
+	//Page Factory
 	public PageObjects(WebDriver driver) {
 		super(driver);
 		PageFactory.initElements(driver, this);

@@ -47,3 +47,9 @@
 2018-07-07 20:48:06,152 INFO  [Log] Account info verified 
 2018-07-07 20:48:06,245 INFO  [Log] Sign Out text verified 
 2018-07-07 20:48:06,257 INFO  [Log] URL My account verified 
+2018-07-07 20:58:36,841 INFO  [Log] --signInTest-- 
+2018-07-07 20:58:47,378 INFO  [Log] My account message verified 
+2018-07-07 20:58:47,476 INFO  [Log] Account name verified 
+2018-07-07 20:58:47,557 INFO  [Log] Account info verified 
+2018-07-07 20:58:47,613 INFO  [Log] Sign Out text verified 
+2018-07-07 20:58:47,627 INFO  [Log] URL My account verified 

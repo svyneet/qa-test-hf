@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="24272" started-at="2018-07-07T18:58:24Z" finished-at="2018-07-07T18:58:49Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="24272" started-at="2018-07-07T18:58:24Z" finished-at="2018-07-07T18:58:49Z">
+      <class name="com.hellofresh.challenges.Tests.WebTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hellofresh.challenges.Tests.WebTest@2ef9b8bc]" name="setUp" is-config="true" duration-ms="11945" started-at="2018-07-07T20:58:24Z" finished-at="2018-07-07T20:58:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="signInTest()[pri:0, instance:com.hellofresh.challenges.Tests.WebTest@2ef9b8bc]" name="signInTest" duration-ms="10789" started-at="2018-07-07T20:58:36Z" finished-at="2018-07-07T20:58:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInTest -->
+        <test-method status="PASS" signature="cleanUp(org.testng.ITestResult)[pri:0, instance:com.hellofresh.challenges.Tests.WebTest@2ef9b8bc]" name="cleanUp" is-config="true" duration-ms="1511" started-at="2018-07-07T20:58:47Z" finished-at="2018-07-07T20:58:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signInTest status=SUCCESS method=WebTest.signInTest()[pri:0, instance:com.hellofresh.challenges.Tests.WebTest@2ef9b8bc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.hellofresh.challenges.Tests.WebTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

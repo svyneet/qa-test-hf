@@ -47,6 +47,7 @@ public class WebTest extends TestBase {
 	@Test
 	public void signInTest() {
 		Log.info("--signInTest--");
+		//Test Data
 		String timestamp = String.valueOf(new Date().getTime());
 		String email = "hf_challenge_" + timestamp + "@hf" + timestamp.substring(7) + ".com";
 		String name = testData.getProperty("name");
@@ -65,7 +66,7 @@ public class WebTest extends TestBase {
 		String phone = testData.getProperty("phone");
 		String phoneMobile = testData.getProperty("phoneMobile");
 		String alias = testData.getProperty("alias");
-		//
+		//Actions
 		actions.waitForElementToBeVisible(pageObjects.buttonSignIn, wait);
 		actions.click(pageObjects.buttonSignIn);
 		actions.clearAndType(pageObjects.inputEmailCreate, email);
@@ -90,7 +91,7 @@ public class WebTest extends TestBase {
 		actions.clearAndType(pageObjects.inputAlias, alias);
 		actions.click(pageObjects.buttonSubmitAccount);
 		actions.waitForElementToBeVisible(pageObjects.heading, wait);
-		//
+		//Validations
 		Assert.assertEquals(actions.getText(pageObjects.heading), PageObjects.Messages.MYACCOUNT);
 		Log.info("My account message verified");
 		Assert.assertEquals(actions.getText(pageObjects.textAccountName), name + " " + surname);
@@ -107,17 +108,18 @@ public class WebTest extends TestBase {
 	
 	public void logInTest() {
 		Log.info("--logInTest--");
+		//Test Data
 		String fullName = testData.getProperty("fullName");
 		String existingUserEmail = testData.getProperty("existingUserEmail");
 		String existingUserPassword = testData.getProperty("existingUserPassword");
-		//
+		//Actions
 		actions.waitForElementToBeVisible(pageObjects.buttonSignIn, wait);
 		actions.click(pageObjects.buttonSignIn);
 		actions.clearAndType(pageObjects.inputEmailExisting, existingUserEmail);
 		actions.clearAndType(pageObjects.inputPasswordExisting, existingUserPassword);
 		actions.click(pageObjects.buttonSubmitLogin);
 		actions.waitForElementToBeVisible(pageObjects.heading, wait);
-		//
+		//Validations
 		Assert.assertEquals(actions.getText(pageObjects.heading), PageObjects.Messages.MYACCOUNT);
 		Log.info("My account message verified");
 		Assert.assertEquals(actions.getText(pageObjects.textAccountName), fullName);
@@ -133,12 +135,11 @@ public class WebTest extends TestBase {
 	
 	public void checkoutTest() {
 		Log.info("--checkoutTest--");
+		//Test Data
 		String existingUserEmail = testData.getProperty("existingUserEmail");
 		String existingUserPassword = testData.getProperty("existingUserPassword");
-
-		//
+		//Actions
 		actions.waitForElementToBeVisible(pageObjects.buttonSignIn, wait);
-		 
 		actions.click(pageObjects.buttonSignIn);
 		actions.clearAndType(pageObjects.inputEmailExisting, existingUserEmail);
 		actions.clearAndType(pageObjects.inputPasswordExisting, existingUserPassword);
@@ -163,7 +164,7 @@ public class WebTest extends TestBase {
 		actions.waitForElementToBeVisible(pageObjects.buttonOrderConfirm, wait);
 		actions.click(pageObjects.buttonOrderConfirm);
 		actions.waitForElementToBeVisible(pageObjects.heading, wait);
-		//
+		//Validations
 		Assert.assertEquals(actions.getText(pageObjects.heading), PageObjects.Messages.ORDERCONFIRMATION);
 		Log.info("Order confirmation message verified");
 		Assert.assertTrue(actions.isDisplayed(pageObjects.tabShipping));

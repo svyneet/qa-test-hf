@@ -1,0 +1,6 @@
+com\hellofresh\challenges\Tests\WebTest.class
+com\hellofresh\challenges\config\TestBase.class
+com\hellofresh\challenges\Pages\PageObjects$Messages.class
+com\hellofresh\challenges\Actions\Actions.class
+com\hellofresh\challenges\config\TestBase$Messages.class
+com\hellofresh\challenges\Pages\PageObjects.class
