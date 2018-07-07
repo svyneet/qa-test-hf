@@ -105,7 +105,7 @@ public class WebTest extends TestBase {
 
 	}
 
-	
+	@Test
 	public void logInTest() {
 		Log.info("--logInTest--");
 		//Test Data
@@ -132,7 +132,7 @@ public class WebTest extends TestBase {
 		Log.info("URL My account verified");
 	}
 
-	
+	@Test
 	public void checkoutTest() {
 		Log.info("--checkoutTest--");
 		//Test Data
