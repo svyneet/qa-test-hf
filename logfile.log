@@ -1,0 +1,49 @@
+2018-07-07 19:36:23,548 INFO  [Log] --checkoutTest-- 
+2018-07-07 19:36:40,698 INFO  [Log] Order confirmation message verified 
+2018-07-07 19:36:40,750 INFO  [Log] Presence of tab shipping verified 
+2018-07-07 19:36:40,808 INFO  [Log] Presence of tab payment verified 
+2018-07-07 19:36:40,861 INFO  [Log] Order complete message verified 
+2018-07-07 19:36:40,871 INFO  [Log] URL order confirmation verified 
+2018-07-07 19:36:56,926 INFO  [Log] --logInTest-- 
+2018-07-07 19:37:01,544 INFO  [Log] My account message verified 
+2018-07-07 19:37:01,629 INFO  [Log] Account name verified 
+2018-07-07 19:37:01,692 INFO  [Log] Account info verified 
+2018-07-07 19:37:01,755 INFO  [Log] Sign Out text verified 
+2018-07-07 19:37:01,765 INFO  [Log] URL My account verified 
+2018-07-07 19:37:15,820 INFO  [Log] --signInTest-- 
+2018-07-07 19:37:25,623 INFO  [Log] My account message verified 
+2018-07-07 19:37:25,695 INFO  [Log] Account name verified 
+2018-07-07 19:37:25,789 INFO  [Log] Account info verified 
+2018-07-07 19:37:25,837 INFO  [Log] Sign Out text verified 
+2018-07-07 19:37:25,844 INFO  [Log] URL My account verified 
+2018-07-07 20:26:00,517 INFO  [Log] --checkoutTest-- 
+2018-07-07 20:29:14,852 INFO  [Log] --checkoutTest-- 
+2018-07-07 20:30:41,279 INFO  [Log] --checkoutTest-- 
+2018-07-07 20:32:06,100 INFO  [Log] --checkoutTest-- 
+2018-07-07 20:37:01,093 INFO  [Log] --checkoutTest-- 
+2018-07-07 20:38:18,537 INFO  [Log] --checkoutTest-- 
+2018-07-07 20:42:10,118 INFO  [Log] --checkoutTest-- 
+2018-07-07 20:42:29,157 INFO  [Log] Order confirmation message verified 
+2018-07-07 20:42:29,226 INFO  [Log] Presence of tab shipping verified 
+2018-07-07 20:42:29,288 INFO  [Log] Presence of tab payment verified 
+2018-07-07 20:42:29,377 INFO  [Log] Order complete message verified 
+2018-07-07 20:42:29,386 INFO  [Log] URL order confirmation verified 
+2018-07-07 20:42:39,484 INFO  [Log] --logInTest-- 
+2018-07-07 20:42:43,894 INFO  [Log] My account message verified 
+2018-07-07 20:42:43,982 INFO  [Log] Account name verified 
+2018-07-07 20:42:44,035 INFO  [Log] Account info verified 
+2018-07-07 20:42:44,101 INFO  [Log] Sign Out text verified 
+2018-07-07 20:42:44,110 INFO  [Log] URL My account verified 
+2018-07-07 20:42:49,165 INFO  [Log] --signInTest-- 
+2018-07-07 20:45:37,965 INFO  [Log] --signInTest-- 
+2018-07-07 20:45:49,679 INFO  [Log] My account message verified 
+2018-07-07 20:45:49,729 INFO  [Log] Account name verified 
+2018-07-07 20:45:49,800 INFO  [Log] Account info verified 
+2018-07-07 20:45:49,859 INFO  [Log] Sign Out text verified 
+2018-07-07 20:45:49,867 INFO  [Log] URL My account verified 
+2018-07-07 20:47:53,933 INFO  [Log] --signInTest-- 
+2018-07-07 20:48:05,955 INFO  [Log] My account message verified 
+2018-07-07 20:48:06,053 INFO  [Log] Account name verified 
+2018-07-07 20:48:06,152 INFO  [Log] Account info verified 
+2018-07-07 20:48:06,245 INFO  [Log] Sign Out text verified 
+2018-07-07 20:48:06,257 INFO  [Log] URL My account verified 
