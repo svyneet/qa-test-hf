@@ -15,9 +15,9 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class TestBase {
-	protected WebDriver		driver	= null;
-	public WebDriverWait	wait	= null;
-	public Properties	settingsProp	= null;
+	protected WebDriver		driver			= null;
+	public WebDriverWait	wait			= null;
+	public Properties		settingsProp	= null;
 
 	
 	public void configureBrowser() {
@@ -63,11 +63,9 @@ public class TestBase {
 		return properties;
 	}
 	 public void takeScreenShot(String methodName) {
-		// get the driver
+
 		String filePath = "target//surefire-reports//";
 		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		// The below method will save the screen shot in d drive with test
-		// method name
 		try {
 			FileUtils.copyFile(scrFile, new File(filePath + methodName + ".png"));
 			System.out.println("***Placed screen shot in " + filePath + " ***");
